@@ -1,5 +1,7 @@
 # 🚀 TikTok Analytics & Trends -- README
 
+### 🔥 Url do Progeto no ar com o Vercel: https://tik-tok-analytics-pro.vercel.app/
+
 ## ✨ Funcionalidades Implementadas
 
 ### 🔥 Tendências em Tempo Real
