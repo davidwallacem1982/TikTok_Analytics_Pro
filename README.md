@@ -1,29 +1,58 @@
-# TikTok Analytics Dashboard
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
-  
-This project is connected to the Convex deployment named [`pleasant-opossum-567`](https://dashboard.convex.dev/d/pleasant-opossum-567).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
+# 🚀 TikTok Analytics & Trends -- README
 
-## App authentication
+## ✨ Funcionalidades Implementadas
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+### 🔥 Tendências em Tempo Real
 
-## Developing and deploying your app
+-   Hashtags virais com métricas detalhadas (visualizações, posts,
+    engajamento)
+-   Sons em tendência com dados de uso e popularidade
+-   Filtros por categoria para análises específicas
+-   **Trend Score** visual para identificar rapidamente as melhores
+    oportunidades
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
-* Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
-* Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
+### 🎯 Recomendações Personalizadas com IA
 
-## HTTP API
+-   Sugestões de hashtags baseadas nas tendências atuais
+-   Recomendações de sons virais para seus vídeos
+-   Tópicos de conteúdo com alto potencial de engajamento
+-   Análise de dificuldade (fácil, médio, difícil) para cada
+    recomendação
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+### 📊 Analytics Detalhados
+
+-   Dashboard completo com métricas dos seus vídeos
+-   Análise de performance (excelente, bom, médio, fraco)
+-   Métricas de engajamento em tempo real
+-   Histórico de hashtags utilizadas
+
+### 🔗 Integração com TikTok
+
+-   Conexão segura usando **Client Key** e **Client Secret**
+-   Sincronização automática de dados
+-   Interface intuitiva para inserção de credenciais
+
+## 🧭 Como Usar
+
+1.  Faça login na plataforma.
+2.  Conecte sua conta TikTok inserindo o **Client Key** e o **Client
+    Secret**.
+3.  Clique em **"Sincronizar Dados"** para importar suas informações.
+4.  Explore as tendências na aba **"Tendências"**.
+5.  Consulte recomendações personalizadas na aba **"Recomendações"**.
+6.  Analise seus vídeos em **"Meus Vídeos"**.
+
+## 🔑 Como Obter Suas Credenciais TikTok
+
+1.  Acesse **TikTok Developers**.
+2.  Crie uma nova aplicação.
+3.  Copie o **Client Key** e o **Client Secret**.
+4.  Cole as informações no formulário de conexão da plataforma.
+
+## 📌 Observação
+
+Após conectar e sincronizar seus dados, você terá acesso a insights
+avançados, tendências atualizadas e recomendações inteligentes para
+aumentar seu alcance no TikTok.
+
+Aproveite para dominar o TikTok com estratégia e inteligência! 🚀
